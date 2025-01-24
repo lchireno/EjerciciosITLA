@@ -1,0 +1,45 @@
+﻿using Microsoft.VisualBasic;
+
+namespace Modulo1ITLA
+{
+
+    class Program
+    {
+        //creamos una enumeracion para los dias de la semana en Español.
+        //ya que la propiedad .DayOfWeek, muestra los dias en ingles aunque puede convertirse a entero (0-6)
+        enum diasSemana 
+        { 
+            Domingo,
+            Lunes, 
+            Martes, 
+            Miercoles, 
+            Jueves, 
+            Viernes, 
+            Sábado        
+        }; // los enums deben definir a nivel de clase o namespace (no en un metodo), ya que son tipos de datos
+
+        static void Main(string[] args)
+        {
+            //Programa que pida al usuario su fecha de nacimiento, y diga de qué día de la semana se trataba.
+
+            DateTime fechaNacimiento;
+
+            Console.WriteLine("LEER LA FECHA DE NACIMIENTO Y MOSTRAR QUE DIA DE SEMANA ES");
+            Console.WriteLine("leonardi Alonzo Chireno");
+            Console.WriteLine("");
+
+            // Leemos la fecha de nacimiento
+            Console.WriteLine("Escriba la fecha de nacimiento:");
+            fechaNacimiento = Convert.ToDateTime(Console.ReadLine());
+            Console.WriteLine("");
+            
+            // creamos la variable dia del tipo diaSemana y le asignamos el valor de la lista diaSemana
+            // que corresponda al valor entero de la propiedad DayOfWeek
+            diasSemana dia = (diasSemana)((int)fechaNacimiento.DayOfWeek);
+            
+            // mostramos el dia en pantalla
+            Console.WriteLine("El dia " + fechaNacimiento.ToString("dd-MM-yyyy") + " es " + dia);
+            Console.ReadKey();
+        }
+    }
+}
