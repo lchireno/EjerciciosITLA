@@ -1,4 +1,4 @@
-﻿namespace Ejercicio3Calculadora
+﻿namespace EjerciciosITLA
 {
     partial class frmCalculadora
     {

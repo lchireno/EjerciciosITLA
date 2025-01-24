@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace Modulo1ITLA
+namespace EjerciciosITLA
 {
     class Program
     {
@@ -19,7 +19,7 @@ namespace Modulo1ITLA
             // leer los 10 numeros y asginarlos a las diez posiciones el arreglo
             for (int i = 0; i < 10; i++)
             {
-                Console.Write(i + 1 + "° :");
+                Console.Write((i + 1).ToString("00°:"));
                 listaNumeros[i] = int.Parse(Console.ReadLine());
             }
             
@@ -32,7 +32,7 @@ namespace Modulo1ITLA
 
             for (int i = 0; i < 10; i++)
             {
-                Console.Write(i + 1 + "° :");
+                Console.Write((i + 1).ToString("00°:"));
                 Console.WriteLine(listaNumeros[i]) ;
             }
 

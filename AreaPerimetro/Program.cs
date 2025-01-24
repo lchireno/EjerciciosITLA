@@ -1,4 +1,4 @@
-﻿namespace Modulo1ITLA
+﻿namespace Ejercicios1ITLA
 { 
     class Program
     {

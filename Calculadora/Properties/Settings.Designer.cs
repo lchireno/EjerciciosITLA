@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Ejercicio3Calculadora.Properties
+namespace EjerciciosITLA.Properties
 {
 
 

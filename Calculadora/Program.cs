@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ejercicio3Calculadora
+namespace EjerciciosITLA
 {
     internal static class Program
     {
