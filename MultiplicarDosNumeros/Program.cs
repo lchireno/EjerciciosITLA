@@ -23,6 +23,7 @@
             // Muestra el resultado
             Console.Write("El Producto es: " + num1 * num2);
 
+            Console.ReadKey();
         }
     }
 }

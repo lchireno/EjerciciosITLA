@@ -29,7 +29,7 @@ namespace Modulo1ITLA
             }
 
             // si el contador (counPrimo) es igual a 2, escribe que es primo
-            if (countPrimo == 2)
+            if (countPrimo == 2 || num1 == 1)
             {
                 Console.WriteLine("Es un número Primo");
             }
@@ -39,6 +39,8 @@ namespace Modulo1ITLA
             {
                 Console.WriteLine("NO es un número primo");
             }
+
+            Console.ReadKey();
         }
     }
 }
