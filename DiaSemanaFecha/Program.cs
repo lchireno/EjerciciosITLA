@@ -44,8 +44,10 @@ namespace EjerciciosITLA
                 // mostramos el dia en pantalla
                 Console.WriteLine("El dia " + fechaNacimiento.ToString("dd-MM-yyyy") + " es " + dia);
 
-                Console.Write("Desea continuar (S/N):");
+                Console.Write("Ejecutar de nuevo (S/N):");
                 continuar = Console.ReadLine().ToUpper();
+                Console.Clear();
+
             }
         }
     }
