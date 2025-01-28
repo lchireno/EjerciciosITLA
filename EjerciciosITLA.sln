@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraCMD", "Calculado
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplicador", "Multiplicador\Multiplicador.csproj", "{6EE16246-3CF7-4867-BBA1-69D8DAEE4951}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resumen2daClase", "Resumen2daClase\Resumen2daClase.csproj", "{FBD1F969-411E-454B-9E1D-13DABBAD38E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{6EE16246-3CF7-4867-BBA1-69D8DAEE4951}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EE16246-3CF7-4867-BBA1-69D8DAEE4951}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EE16246-3CF7-4867-BBA1-69D8DAEE4951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBD1F969-411E-454B-9E1D-13DABBAD38E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD1F969-411E-454B-9E1D-13DABBAD38E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD1F969-411E-454B-9E1D-13DABBAD38E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD1F969-411E-454B-9E1D-13DABBAD38E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

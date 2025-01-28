@@ -12,8 +12,6 @@ namespace Multiplicador
 {
     public partial class frmMultiplicador : Form
     {
-        // declaracion de variables 
-        int num1, num2;
 
         public frmMultiplicador()
         {
@@ -25,9 +23,11 @@ namespace Multiplicador
             txtResultado.Text = Multiplicar();
         }
 
-        public string Multiplicar() // el metodo sera del tipo booleano para devolver verdadero si se cumple o falso si no
+        public string Multiplicar() // el metodo de tipo strin, que devolera el producto de la multiplicacion con formato de miles y hasta 3 decimales.
         {
-            int resultado = 0;
+            // declaracion de variables 
+            int num1, num2, resultado = 0;
+
             // evalua txtNum1, si no está vacio o si no es un nuero, si es un numero lo asigna a la variable num1
             if (txtNum1.Text == "" || !int.TryParse(txtNum1.Text, out num1))
             {
