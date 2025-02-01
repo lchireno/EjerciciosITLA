@@ -48,7 +48,6 @@
                 Console.WriteLine();// inserta una linea para escribir la siguiente fila
             }
             Console.ReadKey();
-            // leer los 10 numeros y asginarlos a las diez posiciones el arreglo
         }
     }
 }

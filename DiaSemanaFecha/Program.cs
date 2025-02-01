@@ -1,9 +1,6 @@
-﻿using Microsoft.VisualBasic;
-
-namespace EjerciciosITLA
+﻿namespace EjerciciosITLA
 {
-
-    class Program
+    internal class Program
     {
         //creamos una enumeracion para los dias de la semana en Español.
         //ya que la propiedad .DayOfWeek, muestra los dias en ingles aunque puede convertirse a entero (0-6)
@@ -47,7 +44,6 @@ namespace EjerciciosITLA
                 Console.Write("Ejecutar de nuevo (S/N):");
                 continuar = Console.ReadLine().ToUpper();
                 Console.Clear();
-
             }
         }
     }

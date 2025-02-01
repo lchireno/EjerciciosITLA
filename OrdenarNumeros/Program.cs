@@ -1,6 +1,4 @@
-﻿using System.Reflection;
-
-namespace EjerciciosITLA
+﻿namespace EjerciciosITLA
 {
     class Program
     {

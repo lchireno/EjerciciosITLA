@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace EjerciciosITLA // Note: actual namespace depends on the project name.
+﻿namespace EjerciciosITLA // Note: actual namespace depends on the project name.
 {
     internal class Program
     {

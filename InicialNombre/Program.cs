@@ -16,8 +16,8 @@
             nombre = Console.ReadLine();
 
             Console.WriteLine("La inicial es: (" + nombre[0] + ")");
+            
             Console.ReadKey();
-
         }
     }
 }

@@ -1,6 +1,4 @@
-﻿using System.Runtime.ConstrainedExecution;
-
-namespace EjerciciosITLA
+﻿namespace EjerciciosITLA
 {
     class Program
     {

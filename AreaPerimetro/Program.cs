@@ -4,7 +4,6 @@
     {
         static void Main(string[] args)
         {
-
             //Programa que lea base y altura y calcule el perimetro y area de un rectangulo 
 
             int b, h, P, A; // declaramos las variables a utilizar
@@ -35,7 +34,6 @@
                 Console.Write("Ejecutar de nuevo (S/N):");
                 continuar = Console.ReadLine().ToUpper();
                 Console.Clear();
-
             }
         }
     }
