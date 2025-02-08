@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            //programa que lea tres números y determine si los tres números son ituales
+            //programa que lea tres números y determine si los tres números son ituales (conforme al flujograma facilitado)
             // declaramos variables
             
             int a, b, c;
