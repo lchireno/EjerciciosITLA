@@ -30,8 +30,8 @@ namespace EjerciciosITLA // Note: actual namespace depends on the project name.
                 Console.WriteLine("El número es positivo");
             }
             Console.WriteLine("");
-            Console.WriteLine("Presione ENTER para continuar");
-            Console.ReadLine();
+            Console.Write("Presione una tecla para continuar");
+            Console.ReadKey();
             Console.Clear();
 
             //Ejercicio 2: Escribe un programa que verifique si un número es par o impar. 
@@ -53,8 +53,8 @@ namespace EjerciciosITLA // Note: actual namespace depends on the project name.
                 Console.WriteLine("El número es IMPAR");
             }
             Console.WriteLine("");
-            Console.WriteLine("Presione ENTER para continuar");
-            Console.ReadLine();
+            Console.Write("Presione una tecla para continuar");
+            Console.ReadKey();
             Console.Clear();
 
 
@@ -79,8 +79,9 @@ namespace EjerciciosITLA // Note: actual namespace depends on the project name.
                 Console.WriteLine("El año NO es BISIESTO");
             }
             Console.WriteLine("");
-            Console.WriteLine("Presione ENTER para continuar");
-            Console.ReadLine();
+            Console.Write("Presione una tecla para continuar");
+            Console.ReadKey();
+            Console.Clear();
 
 
             // hacer un menu de tres opciones
@@ -114,6 +115,11 @@ namespace EjerciciosITLA // Note: actual namespace depends on the project name.
                     Console.WriteLine("Opción no válida");
                     break;
             }
+
+            Console.WriteLine("");
+            Console.Write("Presione una tecla para continuar");
+            Console.ReadKey();
+
         }
     }
 }

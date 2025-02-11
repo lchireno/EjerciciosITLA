@@ -17,7 +17,7 @@
             // leer los 10 numeros y asginarlos a las diez posiciones el arreglo
             for (int i = 0; i < 10; i++)
             {
-                Console.Write((i + 1).ToString("00°:"));
+                Console.Write((i + 1).ToString("00: "));
                 listaNumeros[i] = int.Parse(Console.ReadLine());
             }
             
@@ -30,7 +30,7 @@
 
             for (int i = 0; i < 10; i++)
             {
-                Console.Write((i + 1).ToString("00°:"));
+                Console.Write((i + 1).ToString("00: "));
                 Console.WriteLine(listaNumeros[i]) ;
             }
 
